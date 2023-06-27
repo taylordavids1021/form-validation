@@ -10,23 +10,23 @@
     <form action="" method="get" class="form-example">
         <div class="form-example1">
           <label for="userid">User Id:</label>
-          <input class="id" type="text" name="name" id="name" required>
+          <input class="id" type="text" name="name" id="name" minlength="5" maxlength="12" required>
         </div>
         <div class="form-example">
             <label for="password">Password:</label>
-            <input type="password">
+            <input type="password" minlength="7" maxlength="12" required>
         </div>
         <div class="form-example">
             <label for="name">Name:</label>
-            <input class="name" type="name">
+            <input class="name" type="text" id="name" name="name" required>
         </div>
         <div class="form-example">
             <label for="address">Address:</label>
-            <input class="address" type="address">
+            <input class="address" type="address" required>
         </div>
         <div class="form-example">
             <label for="country">Country:</label>
-            <select class="country" name="country">
+            <select class="country" name="country" required>
                 <option value="southafrica">South Africa</option>
                 <option value="australia">Australia</option>
                 <option value="unitedstates">United States</option>
@@ -37,28 +37,28 @@
         </div>
         <div class="form-example">
             <label for="zip-code">Zip code:</label>
-            <input class="zip" type="zip-code">
+            <input class="zip" type="number" maxlength="4" required>
         </div>
         <div class="form-example">
           <label for="email">Email:</label>
-          <input class="email" type="email" name="email" id="email" required>
+          <input class="email" type="valid" name="email" id="email" required>
         </div>
         <div class="form-example">
             <label for="sex">Sex: </label>
-            <label class="male" for="male">Male</label><input type="radio" id="radio" name="radio">
-            <label class="female" for="female">Female</label><input type="radio" id="radio" name="radio">
+            <label class="male" for="male">Male</label><input type="radio" id="radio" name="radio" required>
+            <label class="female" for="female">Female</label><input type="radio" id="radio" name="radio" required>
         </div>
         <div class="form-example">
             <label class="languages" for="languages">Languages:</label>
-            <label class="eng" for="english">English</label><input type="checkbox" id="checkbox" name="checkbox">
-            <label class="non-eng" for="non-english">Non English</label><input type="checkbox" id="checkbox" name="checkbox">
+            <label class="eng" for="english">English</label><input type="checkbox" id="checkbox" name="checkbox" required>
+            <label class="non-eng" for="non-english">Non English</label><input type="checkbox" id="checkbox" name="checkbox" required>
         </div>
         <div class="form-example">
             <label for="aboutme">About me:</label>
-            <textarea id="story" name="story" rows="5" cols="33">...</textarea>
+            <textarea id="story" name="story" rows="5" cols="33" optional>...</textarea >
         </div>
         <div class="form-example">
-            <input type="submit" value="Submit!">
+            <input class="button" type="submit" value="Submit!">
           </div>
       </form>
 </body>
