@@ -1,0 +1,15 @@
+/* CSS FORM STYLESHEET*/
+
+.form-example input {
+    margin: 5px 10px 5px 0;
+    width: 140px;
+}
+label {
+    margin: 5px 10px 5px 0;
+}
+textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+}
