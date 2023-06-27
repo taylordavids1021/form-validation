@@ -1,8 +1,8 @@
 /* CSS FORM STYLESHEET*/
 
 .form-example input {
-    margin: 5px 10px 5px 0;
-    width: 140px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 label {
     margin: 5px 10px 5px 0;
@@ -12,4 +12,37 @@ textarea {
     box-sizing: border-box;
     width: 100%;
     padding: 0.5rem 0.75rem;
+}
+
+.id{
+    margin-left: 14px;
+}
+.name {
+    margin-left: 23px;
+}
+.address {
+    margin-left: 11px;
+}
+.country {
+    margin-left: 11px;
+}
+.zip {
+    margin-left: 7px;
+}
+.email {
+    margin-left: 24px;
+}
+.male {
+    margin-left: 39px;
+    margin-right: 0;
+}
+.female {
+    margin-left: 17px;
+    margin-right: 0px;
+}
+.languages {
+    margin-right: 2px;
+}
+.eng, .non-eng {
+    margin-right: 2px;
 }
